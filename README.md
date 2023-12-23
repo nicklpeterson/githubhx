@@ -1,4 +1,4 @@
-## Git History
+## Githubhx
 
 Replace `github.com/path/to/some/file` with `githubhx.com/path/to/some/file` to quickly browse the commit history of the file!
 
