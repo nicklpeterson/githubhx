@@ -1,0 +1,25 @@
+.root {
+    padding-top: rem(300);
+    padding-bottom: rem(80);
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: rem(38);
+}
+
+.input {
+    margin: 30px auto;
+    width: 700px;
+}
+
+.button {
+    position: center;
+}
+
+.buttonContainer {
+    text-align: center;
+    font-weight: 900;
+    font-size: rem(38);
+}

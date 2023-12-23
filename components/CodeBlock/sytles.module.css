@@ -1,0 +1,48 @@
+.codeWrapper {
+  border-radius: 6px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
+}
+
+.codeBoxHeader {
+  height: 43px;
+  background-color: #f6f8fa;
+  border-bottom-color: #d0d7de;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 8px 10px;
+}
+
+.lineNumber {
+  color: rgb(206, 212, 218);
+}
+
+.codeHeader {
+  background: none;
+}
+
+.code {
+  height: 91vh;
+  font-size: 13px;
+  background: none;
+}
+
+.scrollArea {
+  width: 100%;
+  border-color: #d0d7de;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  overflow-x: hidden;
+}
+
+.lineNumber {
+  display: inline-block;
+  min-width: 3.25em;
+  padding-right: 1em;
+  text-align: right;
+  user-select: none;
+}

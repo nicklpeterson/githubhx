@@ -1,0 +1,28 @@
+.wrapper {
+    position: relative;
+    padding-top: rem(120);
+    padding-bottom: rem(80);
+}
+
+.inner {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    text-align: center;
+    font-weight: 800;
+    font-size: rem(40);
+    letter-spacing: -1;
+    color: var(--mantine-color-black);
+    margin-bottom: var(--mantine-spacing-xs);
+}
+
+.highlight {
+    color: var(--mantine-color-blue-light-color);
+}
+
+.description {
+    text-align: center;
+    color: var(--mantine-color-gray-light-color)
+}

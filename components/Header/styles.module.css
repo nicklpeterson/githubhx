@@ -1,0 +1,57 @@
+.header {
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    margin-bottom: 0px !important;
+    height: 90px;
+}
+
+.inner {
+    height: rem(56);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+    color: var(--mantine-color-black);
+}
+
+.tab {
+    font-size: 20px;
+    height: rem(38);
+}
+
+.githubIconWrapper {
+    margin-top: 36px;
+    /* border: 1px solid var(--mantine-color-gray-light); */
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: var(--mantine-color-gray-light-hover);
+    }
+}
+
+.githubTab {
+    margin-left: auto;
+}
+
+.githubIcon {
+    margin: 6px 0px 0px 36px;
+}
+
+.githubIconLabel {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.data-portal {
+    display: none;
+}
+
