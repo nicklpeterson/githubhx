@@ -59,7 +59,7 @@ const fetchGithubFileData = async (): Promise<GithubData> => {
     if (!path) return {};
 
     const { owner, repo, branch, filePath, type } = await parseGithubUrl({
-      url: path,
+      url: decodeURIComponent(path),
     });
 
     if (
